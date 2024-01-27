@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+   <link rel="stylesheet" href="sitezahid.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+</head>
+
+
+<div id="sideNovar">
+
+
+   <nav>
+      <ul>
+
+       <form class="box" method="POST" action="save.php">>
+
+       <label for="name_1">نام شما:</label>
+ <input type="text" id="name_1" name="name_1" placeholder="ایمل یا شماره تلفن"/>
+
+ 
+ <label for="password">نام خانوادگی:</label>
+ <input type="text" id="password" name="password" placeholder="گذروازه"/>
+ 
+ 
+
+   
+ <label for="mobile_3">موبایل:</label>
+ <input type="text" id="mobile_3" name="mobile_3" placeholder="09...." />
+ 
+ 
+ 
+    <input type="submit" value=" ورود به سیستم" /> 
+ 
+
+
+       <a href="formlog">ایجاد حساب</a>
+      </ul>
+   </nav> 
+</div>
+</form>
+<div id="logBtn">
+<img src="image/1995071-200.png" alt="">
+<h5>ورود به سیستم</h5>
+</div>
+
+
+<script>
+var logBtn = document.getElementById("logBtn")
+var menu = document.getElementById("menu")
+var sideNovar = document.getElementById("sideNovar")
+
+sideNovar.style.right == "-200px"
+logBtn.onclick = function(){
+  if(sideNovar.style.right == "-1000px"){
+     sideNovar.style.right = "0"
+  
+  }
+  else{
+     sideNovar.style.right = "-1000px"
+     
+  }
+}
+
+var scroll = new SmoothScroll('a[href*="#"]', {
+speed: 1000,
+speedAsDuration: true
+});
+
+</script>
+   
+<!--<div>
+<ul>
+   <li><a href=""></a>log in</li>
+   <li><a href=""></a>instagram</li>
+   <li><a href=""></a>FACEBOOK</li>
+</ul>
+</div> -->
+
+    <section  id="banner" >
+
+
+       <img class="logo" src="zzahid.png"> 
+       
+         <div class="banner-text">
+           <h1>zahid web site</h1>
+           <p>Style yoar Hair Is style yoar Life</p>
+           <div class="banner-btn">
+              <a href="#"> <span></span>صفحه بعد</a>
+              <a href="#"> <span></span> مرور کلی</a>
+           </div>
+         </div>
+      
+          </section>
+
+<div id="sideNov">
+
+   <nav>
+      <ul>
+         <li><a href="#banner">HOME</a></li>
+         <li><a href="#feature">FACEBOOK</a></li>
+         <li><a href="forme log/form login.html">LOG IN</a></li>
+         <li><a href="sung.php">SING UP</a></li>
+         <li><a href="#">ABUTE</a></li>
+      </ul>
+   </nav>
+</div>
+<div id="menuBtn">
+   <img src="image/IMG-20231208-WA0008.jpg" alt="">
+</div>
+
+
+<!--features-->
+
+<section id="feature">
+ <div class="title-text">
+   <p>FEATURES</p>
+    <h1> Why Choose Us</h1>
+ </div>
+
+ <div class="feature-box">
+  <div class="features">
+     <h1>Exper Zahid St</h1>
+     <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+
+     </p>
+  </div>
+    <div class="feature-img">
+      <img src="sitezhaid3.png" alt="">
+    </div>
+ </div>
+
+<!--services-->
+<section id="service">
+   <div class="title-text">
+      <p>Services</p>
+       <h1> Wellco iteme</h1>
+   </div>
+
+   <div class="service-box">
+      <div class="single-service">
+         <img src="image/3.webp">
+         <div class="overlay">
+         </div>
+             <div class="service-desc">
+               <h1>درباره فرادرس</h1>
+               <hr>
+               <p>سازمان علمی و آموزشی فرادرس، قدیمی‌ترین و بزرگ‌ترین پلتفرم آموزش آنلاین ایران است که طی بیش از یک دهه فعالیت خود، بالغ بر ۲۱,۰۰۰ ساعت آموزش آنلاین، در قالب بیش از ۵,۷۰۰ عنوان آموزشی علمی، مهارتی و کاربردی، منتشر کرده‌است.</p>
+             </div>
+      </div>
+      <div class="single-service">
+         <img src="image/2.webp">
+         <div class="overlay">
+         </div>
+         <div class="service-desc">
+            <h1>درباره فرادرس</h1>
+            <hr>
+            <p>سازمان علمی و آموزشی فرادرس، قدیمی‌ترین و بزرگ‌ترین پلتفرم آموزش آنلاین ایران است که طی بیش از یک دهه فعالیت خود، بالغ بر ۲۱,۰۰۰ ساعت آموزش آنلاین، در قالب بیش از ۵,۷۰۰ عنوان آموزشی علمی، مهارتی و کاربردی، منتشر کرده‌است.</p>
+          </div>
+
+      </div>
+      <div class="single-service">
+         <img src="image/1.webp">
+         <div class="overlay">
+         </div>
+         <div class="service-desc">
+            <h1>درباره فرادرس</h1>
+            <hr>
+            <p>سازمان علمی و آموزشی فرادرس، قدیمی‌ترین و بزرگ‌ترین پلتفرم آموزش آنلاین ایران است که طی بیش از یک دهه فعالیت خود، بالغ بر ۲۱,۰۰۰ ساعت آموزش آنلاین، در قالب بیش از ۵,۷۰۰ عنوان آموزشی علمی، مهارتی و کاربردی، منتشر کرده‌است.</p>
+          </div>
+
+      </div>
+      <div class="single-service">
+    <img src="image/1.webp">
+    <div class="overlay">
+   </div>
+   <div class="service-desc">
+      <h1>درباره فرادرس</h1>
+      <hr>
+      <p>سازمان علمی و آموزشی فرادرس، قدیمی‌ترین و بزرگ‌ترین پلتفرم آموزش آنلاین ایران است که طی بیش از یک دهه فعالیت خود، بالغ بر ۲۱,۰۰۰ ساعت آموزش آنلاین، در قالب بیش از ۵,۷۰۰ عنوان آموزشی علمی، مهارتی و کاربردی، منتشر کرده‌است.</p>
+    </div>
+
+      </div>
+
+   </div>
+
+</section>
+
+<!--zahidmin-->
+<section id="zahidmin">
+   <div class="title-text">
+      <p>ZAHID MIN</p>
+       <h1> Wellcom To My Website</h1>
+    </div>
+
+   <div class="zahidmin-row">
+      
+     <div class="zahidmin-col">
+       <div class="user">
+         <img src="image/m1.jpg" alt="">
+          <div class="user-info">
+            <h4>Muhammaed</h4>
+          </div>
+       </div>
+      <p>Checking your network cables, modem, and routers
+Reconnecting to </p>
+     </div>
+     <div class="zahidmin-col">
+      <div class="user">
+         <img src="image/zaaaa.jfif" alt="">
+          <div class="user-info">
+            <h4>Zahid</h4>
+          </div>
+       </div>
+      <p>Checking your network cables, modem, and routers
+Reconnecting to</p>
+     </div>
+     <div class="zahidmin-col">
+      <div class="user">
+         <img src="image/zahid.jpg" alt="">
+          <div class="user-info">
+            <h4>AbdulAhad</h4>
+          </div>
+       </div>
+     <p> Checking your network cables, modem, and routers
+Reconnecting to </p>
+     </div>
+    </div>
+</section>
+
+
+<!--footer-->
+
+<section id="footer">
+   <div class="title-text">
+      <p>درباره وبسایت ما</p>
+       <h1> Weset Shop Tuday</h1>
+    </div>
+
+      <div class="footer-row">
+        <div class="footer-left">
+         <h1>Openin Holers</h1>
+
+         <p>sonday to friday - 8am to 5pm</p>
+         <p>tarse day  - 8am to 14pm</p>
+     
+        </div>
+
+        <div class="footer-right">
+         <h1>Get In Touch</h1>
+          <p>wia, 36 , mine , zahid </p>
+          <p>mustzahid80@gmail.com</p>
+          <p> +989966424017 </p>
+        </div>
+      </div>
+</section>
+
+
+<section>
+
+<div class="products">
+ <a href="#" class="products__item">
+   <span class="products__item-icon"></span>
+ </a>
+</div>
+</section>
+
+<!--newse-->
+
+<div class="newse">
+      
+   <div class="newse-col">
+     <div class="usere">
+       <img src="image/Instagram_logo_2022.svg.png" alt="">
+        <div class="user-info">
+          <h4>Muhammaed</h4>
+        </div>
+     </div>
+     <p>Checking your network cables, modem, and routers
+      Reconnecting toChecking your network cables, modem, and routers
+      Reconnecting toChecking your network cables, modem, and routers
+      Reconnecting to
+      Reconnecting to
+      Reconnecting to
+      Checking your network cables, modem, and routers
+      Reconnecting toChecking your network cables, modem, and routers
+      Reconnecting toChecking your network cables, modem, and routers
+      Reconnecting to
+      Reconnecting to
+      Reconnecting to</p>
+      <p class="clock">12:22</p>
+   </div>
+   <div class="newse-col">
+    <div class="usere">
+       <img src="image/IMG-20231208-WA0008.jpg" alt="">
+        <div class="user-info">
+          <h4>Zahid</h4>
+        </div>
+     </div>
+    <p>Checking your network cables, modem, and routers
+      Reconnecting toChecking your network cables, modem, and routers
+      Reconnecting toChecking your network cables, modem, and routers
+      Reconnecting to
+      Reconnecting to
+      Reconnecting to
+      Checking your network cables, modem, and routers
+      Reconnecting toChecking your network cables, modem, and routers
+      Reconnecting toChecking your network cables, modem, and routers
+      Reconnecting to
+      Reconnecting to
+      Reconnecting to</p>
+<p class="clock">12:22</p>
+   </div>
+   <div class="newse-col">
+    <div class="usere">
+       <img src="image/Instagram_logo_2022.svg.png" alt="">
+        <div class="user-info">
+          <h4>AbdulAhad</h4>
+        </div>
+     </div>
+   <p> Checking your network cables, modem, and routers
+Reconnecting to </p>
+<p class="clock">12:22</p>
+   </div>
+  </div>
+
+
+<script>
+   var menuBtn = document.getElementById("menuBtn")
+   var menu = document.getElementById("menu")
+   var sideNov = document.getElementById("sideNov")
+
+   sideNov.style.right == "-200px"
+   menuBtn.onclick = function(){
+      if(sideNov.style.right == "-200px"){
+         sideNov.style.right = "0"
+      
+      }
+      else{
+         sideNov.style.right = "-200px"
+         
+      }
+   }
+
+   var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+
+</script>
+
+   </body>
+</html>
+
+
+
+
+
+
+
+
+ 
