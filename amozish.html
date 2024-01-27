@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zahid</title>
+    <link rel="stylesheet" href="amozish.css">
+    
+
+     <div id="sideNovar">
+
+        <nav>
+           <ul>
+            <form class="box"action="connect.php" method="POST">
+                <h1> login</h1>
+            <input type="text" name="fname"placeholder="ایمل یا شماره تماس"/>
+            <input type="password" name="pass"placeholder="گذروازه"/>
+            <input type="submit" name="" value="ورود به سیستم"/>
+            <a href="sung.html">ایجاد حساب</a>
+           </ul>
+        </nav>
+     </div>
+     <div id="logBtn">
+    <img src="image/1995071-200.png" alt="">
+     </div>
+     
+
+<script>
+    var logBtn = document.getElementById("logBtn")
+    var menu = document.getElementById("menu")
+    var sideNovar = document.getElementById("sideNovar")
+ 
+    sideNovar.style.right == "-200px"
+    logBtn.onclick = function(){
+       if(sideNovar.style.right == "-1000px"){
+          sideNovar.style.right = "0"
+       
+       }
+       else{
+          sideNovar.style.right = "-1000px"
+          
+       }
+    }
+ 
+    var scroll = new SmoothScroll('a[href*="#"]', {
+     speed: 1000,
+     speedAsDuration: true
+ });
+ 
+ </script>
+</head>
+<body>
+    <h1> hello word</h1>
+</body>
+</html>
